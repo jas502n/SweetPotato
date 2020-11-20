@@ -30,4 +30,4 @@ PrintSpoofer discovery and original exploit by @itm4n
 @itm4n的PrintSpoofer发现和原始利用
 ```
 
-![](./build.png)
+![](./images/build.png)
