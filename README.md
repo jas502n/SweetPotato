@@ -24,7 +24,7 @@ SweetPotato by @_EthicalChaos_
 ### 从`service accounts` 服务帐户到`SYSTEM`的各种本机Windows特权升级技术的集合
 
 ```
-@foxglovesec的Orignal RottenPotato代码和利用
-@decoder_it和@Guitro通过BITS WinRM发现武器化的JuciyPotato
+@foxglovesec的Orignal 烂土豆RottenPotato代码和利用
+@decoder_it和@Guitro通过BITS WinRM发现武器化的 多汁JuciyPotato
 @itm4n的PrintSpoofer发现和原始利用
 ```
