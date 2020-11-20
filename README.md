@@ -31,3 +31,11 @@ PrintSpoofer discovery and original exploit by @itm4n
 ```
 
 ![](./images/build.png)
+
+
+`SweetPotato-CCob\NtApiDotNet\bin\Release\NtApiDotNet.dll`
+
+`SweetPotato-CCob\bin\Release\SweetPotato.exe`
+
+
+
