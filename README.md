@@ -1,4 +1,4 @@
-# SweetPotato
+# SweetPotato 
 ### A collection of various native Windows privilege escalation techniques from service accounts to SYSTEM
 
 ```
@@ -15,3 +15,7 @@ SweetPotato by @_EthicalChaos_
   -l, --listenPort=VALUE     COM server listen port (default 6666)
   -h, --help                 Display this help
 ```
+
+# 甜土豆🥔
+
+### 从`service accounts` 服务帐户到`SYSTEM`的各种本机Windows特权升级技术的集合
