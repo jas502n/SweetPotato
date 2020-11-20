@@ -4,8 +4,11 @@
 ```
 SweetPotato by @_EthicalChaos_
   Orignal RottenPotato code and exploit by @foxglovesec
+  
   Weaponized JuciyPotato by @decoder_it and @Guitro along with BITS WinRM discovery
+  
   PrintSpoofer discovery and original exploit by @itm4n
+  
   -c, --clsid=VALUE          CLSID (default BITS: 4991D34B-80A1-4291-83B6-
                                3328366B9097)
   -m, --method=VALUE         Auto,User,Thread (default Auto)
@@ -19,3 +22,9 @@ SweetPotato by @_EthicalChaos_
 # 甜土豆🥔
 
 ### 从`service accounts` 服务帐户到`SYSTEM`的各种本机Windows特权升级技术的集合
+
+```
+@foxglovesec的Orignal RottenPotato代码和利用
+@decoder_it和@Guitro通过BITS WinRM发现武器化的JuciyPotato
+@itm4n的PrintSpoofer发现和原始利用
+```
